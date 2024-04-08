@@ -1,0 +1,70 @@
+produit
+id int
+nom string
+description text
+prix float
+image string
+categorie int
+createur int
+date_creation date
+date_modification date
+
+categorie
+id int
+nom string
+description text
+createur int
+date_creation date
+date_modification date
+
+visiteur
+id int
+nom string
+email string
+prenom string
+mp string
+etat int
+date_creation date
+date_modification date
+
+administrateur
+id int
+nom string
+email string
+mp string
+
+avis
+id int
+contenu string
+valeur text
+visiteur int 
+produit int
+date_creation date
+date_modification date
+
+stock
+id int 
+produit int
+quantite int
+createur int 
+date_creation date
+date_modification date
+
+panier 
+id int
+visiteur int
+total float
+date_creation date
+date_modification date
+
+commande 
+id int
+produit string
+quantite text
+panier int
+total float
+date_creation date
+date_modification date
+
+
+

@@ -1,0 +1,4 @@
+the feather file in the js folder is used for icons
+
+
+and the char file in the js foldet is used for the chart
